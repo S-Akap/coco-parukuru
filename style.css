@@ -1,0 +1,117 @@
+@font-face {
+    font-family:'Potta One';
+    src:url('./fonts/PottaOne-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #fffacd;
+    font-family: 'Potta One';
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    padding: 500px 0;
+}
+/*  */
+
+.header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 3vw 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8vw;
+    max-width: 1500px;
+
+    margin: 0 auto;
+
+    color: #ed8b45;
+    font-size: 20px;
+}
+
+/*  */
+
+#page-top {
+    position: fixed;
+    right: 1vw;
+    bottom:2vh;
+
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+.haikei {
+    background-image: url("https://wat22.com/wp-content/uploads/2016/10/8a7596e020b995e14694141754b70a15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.monotabi {
+    position: absolute;
+    top: 60%;
+    left: 3%;
+}
+
+/*  */
+
+.border-box {
+    width: 100%;
+    height:  auto;
+    background-color: #cedca5;
+    padding: 3%;
+}
+
+.box1 {
+    box-shadow: 0px 0px 15px 0px rgba(98,98,98,0.8); /*影の指定*/
+    padding:10px;
+    width: 500px;
+    background:#CEDCA5;
+    color:#ED8B45;
+    text-align:center;
+    font-family: 'Potta One';
+    box-sizing: border-box;
+    font-size: 60px;
+    /* display: flex; */
+    margin: 0 auto;
+    transform: translateY(-200px);
+}
+
+.slider {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+    height: 400px;
+}
+
+.slider .slick-slide {
+    margin:0 10px;
+}
+.slider1 {
+    width:80%;
+    margin:0 auto;
+}
+.slider1 img {
+    width:50%;
+    height:200px;
+}
+.slider1 .slick-slide {
+    margin:0 0px;
+}
+
+
+
+
