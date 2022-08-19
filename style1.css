@@ -10,9 +10,12 @@
   margin-right:0;
   margin-left:0;
 } */
+html {
+  scroll-behavior: smooth;
+}
 body{
   background-color: #fffacd;
- font-family: 'Potta One';
+  font-family: 'Potta One';
 }
 @font-face{
   font-family:'Potta One';
